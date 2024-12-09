@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <style>
+        #first {
+            color: chartreuse;
+        }
+
+        big {
+            color: deeppink
+        }
+
+        p {
+            color: blueviolet;
+        }
+
+        /* "Example of Decendant" */
+        #first p {
+            color: red;
+        }
+
+
+        /* Here the above code says, the tag p inside the tag contianing id first make color red */
+    </style>
+
+
+    <title> 03-> Decendant Selector</title>
+</head>
+
+<body>
+
+    <div id="first">
+        <h1> hi
+            <br>
+            <big> Hiiii
+        </h1>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, blanditiis est.
+        </p>
+        </big>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+
+</body>
+
+</html>
+<!-- In simple I'm the decendant of my grandfather and father -->
+
+<!-- Here we see how can we give style to specific tag of an id or to the decendantor of the tag only -->
