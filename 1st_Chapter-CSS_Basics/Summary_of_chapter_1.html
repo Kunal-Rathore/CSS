@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <link rel="stylesheet" href="----">    External -->
+    <style>
+        /* selector -> inline -> internal -> External */
+        /* selector -> id & class -> universal -> group */
+        /* decendent selector */
+
+        h1 {
+            color: gold;
+        }
+
+        #last {
+            color: aqua;
+        }
+
+        .p_p {
+            color: blueviolet;
+        }
+
+        * {
+            color: greenyellow;
+        }
+
+        h1 p,
+        #middle {
+            color: crimson;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="first">Topic</h1>
+    <big style="color: blue;">
+        <p class="p_p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </big>
+
+    <h2 id="middle">Context</h2>
+    <p class="p_p">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam doloribus deleniti minus porro optio nulla.
+    </p>
+
+
+    <h3>Terms and conditions apply</h3>
+
+    <h1 id="last">Thank you</h1>
+</body>
+
+</html>
